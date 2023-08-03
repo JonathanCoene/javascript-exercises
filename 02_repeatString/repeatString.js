@@ -9,6 +9,7 @@ const repeatString = function(string, num) {
 console.log(repeatString('hey', 3));
 console.log(repeatString('hey', 10));
 console.log(repeatString('hey', 1));
+console.log(repeatString('hey', 0));
 
 // Do not edit below this line
 module.exports = repeatString;
