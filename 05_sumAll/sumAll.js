@@ -12,7 +12,7 @@ const sumAll = function(firstValue, secondValue) {
         }
     }
 
-    if (firstValue < 0 || secondValue < 0) {
+    if (firstValue < 0 || secondValue < 0 || typeof firstValue === 'string' || typeof secondValue === 'string') {
         return "ERROR";
     } else {
         return output;
@@ -25,6 +25,7 @@ console.log(sumAll(1, 4));
 console.log(sumAll(1,4000));
 console.log(sumAll(123, 1));
 console.log(sumAll(-10, 4));
+console.log(sumAll(10,"90"));
 
 // Do not edit below this line
 module.exports = sumAll;
