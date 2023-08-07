@@ -15,6 +15,7 @@ console.log(leapYears(1997));
 console.log(leapYears(34992));
 console.log(leapYears(1900));
 console.log(leapYears(1600));
+console.log(leapYears(700));
 
 
 // Do not edit below this line
