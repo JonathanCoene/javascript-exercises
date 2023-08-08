@@ -1,5 +1,6 @@
-const add = function() {
-	
+const add = function(valueOne, valueTwo) {
+	let output = valueOne + valueTwo;
+  return output;
 };
 
 const subtract = function() {
@@ -21,6 +22,12 @@ const power = function() {
 const factorial = function() {
 	
 };
+
+
+console.log(add(0, 0));
+console.log(add(2, 2));
+console.log(add(2, 6));
+
 
 // Do not edit below this line
 module.exports = {
