@@ -16,8 +16,9 @@ const multiply = function(array) {
   return array.reduce((a, b) => a * b, 1);
 };
 
-const power = function() {
-	
+const power = function(valueOne, valueTwo) {
+  let output = valueOne ** valueTwo;
+  return output;
 };
 
 const factorial = function() {
@@ -38,6 +39,8 @@ console.log(sum([1, 3, 5, 7, 9]));
 
 console.log(multiply([2, 4]));
 console.log(multiply([2, 4, 6, 8, 10, 12, 14]));
+
+console.log(power(4, 3));
 
 
 // Do not edit below this line
