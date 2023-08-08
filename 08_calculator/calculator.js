@@ -3,7 +3,9 @@ const add = function(valueOne, valueTwo) {
   return output;
 };
 
-const subtract = function() {
+const subtract = function(valueOne, valueTwo) {
+  let output = valueOne - valueTwo;
+  return output;
 	
 };
 
@@ -27,6 +29,8 @@ const factorial = function() {
 console.log(add(0, 0));
 console.log(add(2, 2));
 console.log(add(2, 6));
+
+console.log(subtract(10, 4));
 
 
 // Do not edit below this line
